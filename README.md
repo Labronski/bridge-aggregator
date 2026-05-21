@@ -3,12 +3,16 @@
 A tool for tracking cross-chain bridge transactions across multiple providers and networks in one place. Built to solve one of the most frustrating investigation problems in Web3 support: figuring out where a bridged transaction actually is.
 
 
+---
+
 ## The Problem
 
 Bridge transactions are hard to support. A single bridge operation touches two separate blockchains, goes through a third-party bridge provider, and each provider has its own status schema, terminology, and data format. When something goes wrong, you're switching between multiple provider dashboards, cross-referencing transaction hashes, and trying to reconcile inconsistent status labels.
 
 The Bridge Aggregator pulls data from MetaMask's bridge API and the underlying provider APIs, normalizes it into a single consistent view, and surfaces everything you need to diagnose an issue in one place.
 
+
+---
 
 ## Features
 
@@ -19,6 +23,8 @@ The Bridge Aggregator pulls data from MetaMask's bridge API and the underlying p
 - Reduces diagnosis time for stuck, pending, or failed bridge transactions
 
 
+---
+
 ## Stack
 
 - **JavaScript** — core logic and API integration
@@ -26,6 +32,8 @@ The Bridge Aggregator pulls data from MetaMask's bridge API and the underlying p
 - **MetaMask Bridge API** — primary transaction data source
 - **Bridge Provider APIs** — LI.FI, Socket, Squid, and others for status resolution
 
+
+---
 
 ## Notes
 
