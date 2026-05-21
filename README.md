@@ -27,10 +27,10 @@ The Bridge Aggregator pulls data from MetaMask's bridge API and the underlying p
 
 ## Stack
 
-- **JavaScript** — core logic and API integration
-- **HTML / CSS** — frontend interface
-- **MetaMask Bridge API** — primary transaction data source
-- **Bridge Provider APIs** — LI.FI, Socket, Squid, and others for status resolution
+- **JavaScript**: core logic and API integration
+- **HTML / CSS**: frontend interface
+- **MetaMask Bridge API**: primary transaction data source
+- **Bridge Provider APIs**: LI.FI, Socket, Squid, and others for status resolution
 
 
 ---
